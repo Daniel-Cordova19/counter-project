@@ -8,11 +8,9 @@ let counter = 0;// Tu código aquí.
 document.querySelector(".nextBtn").addEventListener("click", () => {
     counter++;
     document.querySelector("#counter").innerHTML = counter;
-    counter.style.backgroundColor = 'red';
 
-    counter.addEventListener('click', function() {
-        caja.style.backgroundColor = 'red';
-      });
+    
+
 });
 
 
